@@ -1,0 +1,137 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0%;
+    background-color: #fdb6e8 ;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+    
+.navbar {
+    background-color: #e750c1  ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+     
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 17px 20px;
+    text-decoration: none;
+}
+     
+.navbar a:hover {
+    background-color: #ffe3c8 ;
+    color: black;
+}
+
+.inicio, .produtos, #sobre, .servico, .sobre, #contato{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ 
+.produtos img{
+    width: 230px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+ 
+.produtos img:hover{
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #990975;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    color: #a30f7e;
+}
+
+h3{
+    color: #750b5b;
+}
+
+fieldset{
+    border: none;
+    text-align: center;
+}
+
+button{
+    border: none ;
+    background-color: #ad1587;
+    color: #f2f2f2;
+    padding: 4%;
+    border-radius: 1cap;
+    font-size: medium;
+}
+
+.form-container {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-container label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container button {
+    background-color: #a72887; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #990975;
+}
